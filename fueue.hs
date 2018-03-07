@@ -8,7 +8,7 @@ import Control.Monad.State.Strict
 import Control.Monad.Trans.Maybe
 
 import Data.Char
-import Data.Foldable
+import Data.Foldable hiding (length)
 import Data.Monoid
 import Data.Sequence
 
